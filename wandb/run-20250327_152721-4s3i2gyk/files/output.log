@@ -1,0 +1,18 @@
+  0%|                                                                          | 0/10000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/k/Documents/workspace/coupai/train.py", line 234, in <module>
+    train()
+    ~~~~~^^
+  File "/Users/k/Documents/workspace/coupai/train.py", line 156, in train
+    episode_reward, episode_length, action_counts, player_coins, player_influence) = collect_episode(env, agent, num_players)
+                                                                                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/k/Documents/workspace/coupai/train.py", line 82, in collect_episode
+    action, action_prob, _ = agent.select_action(state)
+                             ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/k/Documents/workspace/coupai/coup/agent.py", line 55, in select_action
+    action, action_prob, state_value = self.policy.get_action(state)
+                                       ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/k/Documents/workspace/coupai/coup/agent.py", line 42, in get_action
+    return action.item(), action_probs[action], state_value
+                          ~~~~~~~~~~~~^^^^^^^^
+IndexError: index 21 is out of bounds for dimension 0 with size 1

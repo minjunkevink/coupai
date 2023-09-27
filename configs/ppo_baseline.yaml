@@ -1,0 +1,36 @@
+game:
+  num_players: 3
+  starting_coins: 2
+  bank_coins: 50
+  influence_cards_per_player: 2
+  copies_per_character: 3
+  coup_cost: 7
+  assassinate_cost: 3
+  max_coins: 10
+  forced_coup_threshold: 10
+
+policy:
+  name: "ppo"
+  hidden_dims: [128, 128]
+  activation: "relu"
+  learning_rate: 3e-4
+  gamma: 0.99
+  batch_size: 64
+  ppo_epochs: 4
+  clip_param: 0.2
+  value_loss_coef: 0.5
+
+training:
+  num_episodes: 10000
+  eval_freq: 100
+  save_freq: 1000
+  num_eval_episodes: 10
+  seed: 42
+  device: "cuda"
+  reward_scale: 1.0
+  max_episode_length: 100
+  num_parallel_envs: 1
+
+wandb_project: "coup-ai"
+wandb_entity: "your-username"
+run_name: "ppo_baseline" 

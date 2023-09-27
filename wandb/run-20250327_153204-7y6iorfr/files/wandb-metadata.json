@@ -1,0 +1,44 @@
+{
+  "os": "macOS-15.3.2-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.1",
+  "startedAt": "2025-03-27T22:32:04.944986Z",
+  "program": "/Users/k/Documents/workspace/coupai/train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "https://github.com/minjunkevink/coupai.git",
+    "commit": "eb09889f05b3d58e33a41e1a2ca0767e548d3840"
+  },
+  "email": "kimkj@usc.edu",
+  "root": "/Users/k/Documents/workspace/coupai",
+  "host": "KBP.local",
+  "executable": "/Users/k/Documents/workspace/coupai/venv/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "81204928512"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "81204928512"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 8,
+    "memoryGb": 8,
+    "swapTotalBytes": "5368709120",
+    "ramTotalBytes": "8589934592"
+  }
+}

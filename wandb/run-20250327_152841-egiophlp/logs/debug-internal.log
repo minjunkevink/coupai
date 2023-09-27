@@ -1,0 +1,15 @@
+{"time":"2025-03-27T15:28:41.642736-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/k/Documents/workspace/coupai/wandb/run-20250327_152841-egiophlp/logs/debug-core.log"}
+{"time":"2025-03-27T15:28:41.753855-07:00","level":"INFO","msg":"created new stream","id":"egiophlp"}
+{"time":"2025-03-27T15:28:41.753911-07:00","level":"INFO","msg":"stream: started","id":"egiophlp"}
+{"time":"2025-03-27T15:28:41.754162-07:00","level":"INFO","msg":"handler: started","stream_id":"egiophlp"}
+{"time":"2025-03-27T15:28:41.754207-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"egiophlp"}
+{"time":"2025-03-27T15:28:41.754222-07:00","level":"INFO","msg":"sender: started","stream_id":"egiophlp"}
+{"time":"2025-03-27T15:28:41.947252-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T15:28:45.327806-07:00","level":"INFO","msg":"stream: closing","id":"egiophlp"}
+{"time":"2025-03-27T15:28:45.32806-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T15:28:45.330234-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T15:28:51.444205-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T15:28:51.685728-07:00","level":"INFO","msg":"sender: closed","stream_id":"egiophlp"}
+{"time":"2025-03-27T15:28:51.68571-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"egiophlp"}
+{"time":"2025-03-27T15:28:51.686744-07:00","level":"INFO","msg":"handler: closed","stream_id":"egiophlp"}
+{"time":"2025-03-27T15:28:51.686799-07:00","level":"INFO","msg":"stream: closed","id":"egiophlp"}

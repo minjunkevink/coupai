@@ -1,0 +1,14 @@
+  0%|                                                                          | 0/10000 [00:00<?, ?it/s]/Users/k/Documents/workspace/coupai/coup/agent.py:68: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:257.)
+  rewards = torch.FloatTensor(rewards)
+  0%|                                                                          | 0/10000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/k/Documents/workspace/coupai/train.py", line 235, in <module>
+    train()
+    ~~~~~^^
+  File "/Users/k/Documents/workspace/coupai/train.py", line 180, in train
+    policy_loss, value_loss = agent.update(all_states, all_actions, all_rewards, all_next_states, all_dones, all_action_probs)
+                              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/k/Documents/workspace/coupai/coup/agent.py", line 76, in update
+    returns = rewards + self.gamma * next_values.squeeze() * (1 - dones)
+              ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RuntimeError: The size of tensor a (10) must match the size of tensor b (4) at non-singleton dimension 1

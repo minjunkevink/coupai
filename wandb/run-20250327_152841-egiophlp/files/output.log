@@ -1,0 +1,12 @@
+  0%|                                                                          | 0/10000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/k/Documents/workspace/coupai/train.py", line 234, in <module>
+    train()
+    ~~~~~^^
+  File "/Users/k/Documents/workspace/coupai/train.py", line 156, in train
+    episode_reward, episode_length, action_counts, player_coins, player_influence) = collect_episode(env, agent, num_players)
+                                                                                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/k/Documents/workspace/coupai/train.py", line 87, in collect_episode
+    action_name = env.game.Action(action_type).name
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'CoupGame' object has no attribute 'Action'

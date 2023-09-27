@@ -1,0 +1,40 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        code_path: code/train.py
+        m: []
+        python_version: 3.13.1
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 3
+                - 16
+                - 23
+                - 55
+            "4": 3.13.1
+            "5": 0.19.8
+            "8":
+                - 5
+            "12": 0.19.8
+            "13": darwin-arm64
+clip_param:
+    value: 0.2
+episodes_per_update:
+    value: 4
+gamma:
+    value: 0.99
+hidden_dim:
+    value: 128
+learning_rate:
+    value: 0.0003
+num_episodes:
+    value: 10000
+num_players:
+    value: 3
+ppo_epochs:
+    value: 4
