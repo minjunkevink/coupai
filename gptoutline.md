@@ -1,3 +1,4 @@
+GPT OUTLINE
 ### 1. Understand the Game Mechanics and Strategy
 - **Rules Comprehension**: Familiarize yourself thoroughly with the rules, actions, and strategies of "Coup".
 - **Strategy Analysis**: Study common strategies and tactics used by skilled human players.
